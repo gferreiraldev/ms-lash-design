@@ -51,6 +51,51 @@ SERVICES = [
         "price": "R$ 130,00",
         "image": supabase_img("cilios3"),
     },
+    {
+        "id": 7,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Volume power 3D",
+        "description": "Técnica de volume que proporciona um efeito mais intenso e marcante, com cílios densos e alongados, ideal para quem deseja um olhar poderoso e impactante.",
+        "price": "R$ 160,00",
+        "image": supabase_img("cilios7"),
+    },
+    {
+        "id": 8,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Volume Egípcio",
+        "description": "Técnica de volume que cria um efeito mais dramático e marcante, com cílios densos e alongados, ideal para realçar a beleza do olhar e criar um visual sofisticado.",
+        "price": "R$ 140,00",
+        "image": supabase_img("cilios8"),
+    },
+    {
+        "id": 9,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Efeito rimel/molhado",
+        "description": "Técnica que proporciona um efeito de cílios molhados, com fios mais curvados e alongados, criando um visual moderno e elegante, perfeito para realçar o olhar de forma sutil e sofisticada.",
+        "price": "R$ 140,00",
+        "image": supabase_img("cilios9"),
+    },
+    {
+        "id": 12,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Lash lifting",
+        "description": "Técnica que eleva e define os cílios, criando um efeito mais longo e volumoso, ideal para realçar o olhar de forma natural e duradoura.",
+        "price": "R$ 100,00",
+        "image": supabase_img("cilios12"),
+    },
+    {
+        "id": 11,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Remoção Química de Extensão de Cílios",
+        "description": "Técnica que utiliza produtos específicos para remover a extensão de cílios de forma segura e eficaz, sem danificar os cílios naturais, proporcionando um processo de remoção suave e confortável.",
+        "price": "R$ 30,00",
+        "image": supabase_img("cilios11"),
+    },
     # Sobrancelhas
     {
         "id": 4,
@@ -79,6 +124,15 @@ SERVICES = [
         "price": "R$ 50,00",
         "image": supabase_img("sobrancelha3"),
     },
+    {
+        "id": 10,
+        "category": "depilacao",
+        "category_label": "Depilação",
+        "name": "Depilação de buço com cera",
+        "description": "Técnica de depilação facial utilizando cera para remover pelos indesejados, proporcionando uma pele lisa e suave.",
+        "price": "R$ 12,00",
+        "image": supabase_img("depilacao1"),
+    }
 ]
 
 TESTIMONIALS = [
@@ -126,6 +180,7 @@ def index():
         testimonials=TESTIMONIALS,
         portfolio_images=PORTFOLIO_IMAGES,
         supabase_logo=supabase_img("image_ddfe48.png"),
+        supabase_biografia=supabase_img("biografia"),
     )
 
 if __name__ == "__main__":

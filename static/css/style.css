@@ -891,3 +891,100 @@ a { text-decoration: none; color: inherit; }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--off-white); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+
+
+/* ── SOBRE MIM / BIOGRAFIA ─────────────────────────────── */
+.about {
+  padding: var(--section-pad) clamp(16px, 5vw, 60px);
+  background: var(--off-white); /* Fundo levemente diferente para destacar */
+  overflow: hidden;
+}
+
+.about__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr; /* Mobile: 1 coluna (Foto em cima, texto embaixo) */
+  gap: 48px;
+  align-items: center;
+}
+
+/* Moldura e Foto */
+.about__image-wrap {
+  position: relative;
+  max-width: 380px; /* Não deixa a foto ficar gigante no celular */
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about__img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  aspect-ratio: 3 / 4; /* Formato retrato fotográfico */
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 2;
+}
+
+/* Aquele detalhe chique da bordinha dourada atrás da foto */
+.about__image-accent {
+  position: absolute;
+  top: 15px;
+  left: -15px;
+  right: 15px;
+  bottom: -15px;
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-lg);
+  z-index: 1;
+  transition: var(--transition-slow);
+}
+
+.about__image-wrap:hover .about__image-accent {
+  transform: translate(10px, -10px);
+}
+
+/* Textos da Biografia */
+.about__content {
+  text-align: center; /* Centralizado no celular */
+}
+
+.about__content .section-title {
+  margin-bottom: 24px;
+}
+
+.about__text {
+  font-size: 1.05rem;
+  color: var(--grey-600);
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.about__text strong {
+  font-weight: 600;
+  color: var(--black);
+}
+
+/* ── ADAPTAÇÃO PARA DESKTOP ── */
+@media (min-width: 768px) {
+  .about__container {
+    grid-template-columns: 1fr 1.2fr; /* PC: Foto na esquerda, texto na direita (texto um pouco mais largo) */
+    gap: 80px;
+  }
+
+  .about__content {
+    text-align: left; /* PC: Texto alinhado à esquerda */
+  }
+
+  .about__image-wrap {
+    margin: 0; /* Tira o centro automático para encostar na grade */
+  }
+
+  .about__image-accent {
+    top: 25px;
+    left: -25px;
+    right: 25px;
+    bottom: -25px;
+  }
+}
