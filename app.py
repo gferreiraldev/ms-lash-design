@@ -40,7 +40,7 @@ SERVICES = [
         "name": "Volume Glamour 5D",
         "description": "Técnica de volume extremo que proporciona um efeito dramático, com cílios densos e volumosos para um olhar marcante e impactante.",
         "price": "R$ 160,00",
-        "image": supabase_img("cilios2"),
+        "image": supabase_img("cilios22"),
     },
     {
         "id": 3,
@@ -58,7 +58,7 @@ SERVICES = [
         "name": "Volume power 3D",
         "description": "Técnica de volume que proporciona um efeito mais intenso e marcante, com cílios densos e alongados, ideal para quem deseja um olhar poderoso e impactante.",
         "price": "R$ 160,00",
-        "image": supabase_img("cilios7"),
+        "image": supabase_img("cilios77"),
     },
     {
         "id": 8,
@@ -76,7 +76,7 @@ SERVICES = [
         "name": "Efeito rimel/molhado",
         "description": "Técnica que proporciona um efeito de cílios molhados, com fios mais curvados e alongados, criando um visual moderno e elegante, perfeito para realçar o olhar de forma sutil e sofisticada.",
         "price": "R$ 140,00",
-        "image": supabase_img("cilios9"),
+        "image": supabase_img("cilios99"),
     },
     {
         "id": 12,
