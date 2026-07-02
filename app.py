@@ -85,7 +85,7 @@ SERVICES = [
         "name": "Lash lifting",
         "description": "Técnica que eleva e define os cílios, criando um efeito mais longo e volumoso, ideal para realçar o olhar de forma natural e duradoura.",
         "price": "R$ 100,00",
-        "image": supabase_img("cilios12"),
+        "image": supabase_img("cilios122"),
     },
     {
         "id": 11,
@@ -113,7 +113,7 @@ SERVICES = [
         "name": "Design de sobrancelha",
         "description": "Modelagem personalizada das sobrancelhas, utilizando técnicas de depilação e design para realçar a beleza natural do rosto.",
         "price": "R$ 40,00",
-        "image": supabase_img("sobrancelha2"),
+        "image": supabase_img("sobrancelha22"),
     },
     {
         "id": 6,
@@ -122,7 +122,7 @@ SERVICES = [
         "name": "Design de sobrancelha com henna",
         "description": "Modelagem personalizada das sobrancelhas com o uso de henna para um resultado duradouro e natural.",
         "price": "R$ 50,00",
-        "image": supabase_img("sobrancelha3"),
+        "image": supabase_img("sobrancelha33"),
     },
     {
         "id": 10,
