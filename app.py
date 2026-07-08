@@ -96,6 +96,15 @@ SERVICES = [
         "price": "R$ 30,00",
         "image": supabase_img("cilios11"),
     },
+    {
+        "id": 13,
+        "category": "cilios",
+        "category_label": "Cílios",
+        "name": "Volume moana",
+        "description": "entrega um olhar marcante, elegante e cheio de movimento. Com fios bem alinhados e um acabamento sofisticado, proporciona um efeito de rímel intenso sem perder a delicadeza, valorizando a beleza natural de cada olhar.",
+        "price": "R$ 140,00",
+        "image": supabase_img("cilios13"),
+    },
     # Sobrancelhas
     {
         "id": 4,
