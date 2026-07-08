@@ -101,7 +101,7 @@ SERVICES = [
         "category": "cilios",
         "category_label": "Cílios",
         "name": "Volume moana",
-        "description": "entrega um olhar marcante, elegante e cheio de movimento. Com fios bem alinhados e um acabamento sofisticado, proporciona um efeito de rímel intenso sem perder a delicadeza, valorizando a beleza natural de cada olhar.",
+        "description": "Técnica de volume que proporciona um efeito mais natural e delicado, com cílios levemente mais densos e alongados, ideal para realçar a beleza do olhar de forma sutil e elegante.",
         "price": "R$ 140,00",
         "image": supabase_img("cilios13"),
     },
